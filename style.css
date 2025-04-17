@@ -146,3 +146,128 @@ footer a {
 .Social img {
     margin: 0px 5px;
 }
+/*
+
+Stylisation des sections de la page CV
+
+*/
+
+.Infos_CV {
+    margin: 0% 2%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    display: flex;
+}
+
+.Infos_Contact {
+    background-color: rgba(255, 255, 255, 10%);
+    width: 25%;
+    height: 50%;
+    border-radius: 10px;
+}
+
+.Photo_Infos_Contact img {
+    width: 80%;
+    margin-bottom: 10%;
+}
+.Dev {
+    font-size: 0.7em;
+    background-color: rgba(255, 255, 255, 20%);
+    margin-top: 15px;
+    border-radius: 10px;
+    align-items: center;
+    padding: 0.7em 2em;
+}
+.Photo_Infos_Contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10%;
+    padding-bottom: 20%;
+    color: white;
+    font-family: 'Josefin-Bold';
+    border-bottom: rgba(255, 255, 255, 20%) solid 0.5px;
+}
+.Social_Infos_Contact {
+    padding-left: 15%;
+    padding-top: 25%;
+    padding-bottom: 10%;
+}
+
+.Social_Infos_Contact div {
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-bottom: 10%;
+}
+.Social_Infos_Contact div p {
+    text-align: left;
+    font-size: 13px;
+    line-height: 180%;
+    font-family: 'Josefin-Light';
+}
+.Social_Infos_Contact a {
+    color: white;
+    text-decoration: none;
+}
+.Social_Infos_Contact div img {
+    width: 25px;
+    height: 25px;
+    margin-right: 15px;
+}
+
+.Details_CV {
+    background-color: rgba(255, 255, 255, 10%);
+    color: white;
+    font-family: 'Josefin-Regular';
+    width: 100%;
+    margin-left: 15px;
+}
+.Details_CV h1 {
+    font-size: 24px;
+    background-color: #DC2626;
+    width: 100px;
+    padding: 10px 0px;
+    text-align: center;
+    border-bottom-right-radius: 50px;
+}
+
+.Titre_Details_CV {
+    display: flex;
+    padding: 30px;
+    font-family: 'Josefin-Bold';
+    font-size: 20px;
+}
+.Titre_Details_CV img {
+    margin-right: 20px;
+    width: 25px;
+    height: 25px;
+}
+.Poste_CV {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 75px;
+    padding-right: 30px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    line-height: 180%;
+}
+.Details_Poste {
+    font-family: 'Josefin-Regular';
+    font-size: 17px;
+    line-height: 170%;
+    padding-left: 75px;
+}
+.Details_Poste ul {
+    margin-top: 20px;
+    margin-left: 35px;
+    margin-bottom: 30px;
+}
+.Skills_CV {
+    border-top: #DC2626 solid 1px;
+}
+.Skills_CV ul {
+    padding-left: 75px;
+    padding-bottom: 30px;
+    line-height: 170%;
+}
