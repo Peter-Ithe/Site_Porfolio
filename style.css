@@ -55,6 +55,7 @@ header {
 
 .Profil {
     width: 40%;
+    border-radius: 100%;
 }
 
 .Apropos {
@@ -257,6 +258,7 @@ Stylisation des sections de la page CV
     font-size: 17px;
     line-height: 170%;
     padding-left: 75px;
+    margin-bottom: 20px;
 }
 .Details_Poste ul {
     margin-top: 20px;
@@ -328,6 +330,10 @@ Stylisation des sections de la page Projets
     text-align: center;
     border-bottom-right-radius: 50px;
 }
+
+.Photo_Projets {
+    width: 40%;
+}
 /*
 
 Stylisation des sections de la page Contact
@@ -345,6 +351,7 @@ Stylisation des sections de la page Contact
     width: 100%;
     font-family: 'Josefin-Regular';
     margin-left: 15px;
+    padding-bottom: 15px;
     color: white;
 }
 
